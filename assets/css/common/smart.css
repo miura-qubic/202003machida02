@@ -1012,11 +1012,11 @@ header.load{ transform:translateY(-100%); }
 	position: relative;
 	z-index: 10;
 }
-.above_col_ttl{ padding: 1rem 1.5rem; }
+.above_col_ttl{ padding: 0 1.5rem 1rem; }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 下層共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ パンくずリスト ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.breadcrumb{ padding:1rem 1.5rem; }
+.breadcrumb{ padding:1rem 1.5rem; margin-bottom: 1rem;}
 .breadcrumb ol{
 	display: flex;
 	flex-wrap: wrap;
@@ -1179,3 +1179,214 @@ aside .box ul li a:hover::before{ right: 0.5rem; }
 	width: 100%;
 	order: 1;
 }
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ news ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ news詳細 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.news04{
+	background: url(../../images/news/bg_mv_sp.png) center center/cover no-repeat;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ news詳細 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ column ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.column01{
+	background: url(../../images/column/column_mv_sp.png) center center/cover no-repeat;
+}
+.column02 article a{
+	border-bottom: solid 1px #c3c3c3;
+	padding: 1.5rem 0;
+}
+.column02 article a .img img{
+	width:100%;
+}
+.column02 article a .txt_wrap{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1rem 0 0;;
+}
+.column02 article a .txt_wrap h3{
+	order: 1;
+	width: 100%;
+	font-size: 1.1rem;
+	margin: 0 0 0.5rem;
+}
+.column02 article a .txt_wrap time{
+	order: 2;
+	color: #0fab0c;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+.column02 article a .txt_wrap .cat.new,
+.column02 article a .txt_wrap .cat{
+	order: 3;
+	color: #0fab0c;
+	font-size: 0.9rem;
+	font-weight: 500;
+	border: solid 1px #0fab0c;
+	padding: 0 0.5rem;
+	margin-right: 0.5rem;
+}
+.column02 article a .txt_wrap .cat.new{
+	background: #0fab0c;
+	color: #fff;
+}
+.column02 article a .txt_wrap p{
+	order: 4;
+	width: 100%;
+	margin: 0.5rem 0 0;
+}
+.column02 article a .txt_wrap p.link{
+	width: 100%;
+	order: 5;
+	font-size: 0.9rem;
+	text-align: center;
+	margin:1rem 0 0;
+}
+.column02 article p.link span{
+	display: inline-block;
+	padding: 0 2rem 0.5rem 0;
+	border-bottom: 1px solid #333;
+	position: relative;
+		-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.column02 article p.link span::before,
+.column02 article p.link span::after{
+	position: absolute;
+	top:45%;
+	right: 0;
+	background: #333;
+	content: '';
+	height: 1px;
+}
+.column02 article p.link span::before{
+	transform: translateY(-50%);
+	width: 1.5rem;
+}
+.column02 article p.link span::after{
+	transform: translateY(-50%) rotate(35deg);
+	transform-origin: right center;
+	width: 0.5rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ column ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ column詳細 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.column04{
+		background: url(../../images/column/column_mv_sp.png) center center/cover no-repeat;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ column詳細 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ポストエリア ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.postarea h1{
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+.postinfo{
+	margin:1rem 0 0.5rem;
+}
+.postinfo time{
+	font-size: 0.9rem;
+	font-weight: 700;
+	margin-right: 1rem;
+	color: #0fab0c;
+}
+.postinfo a{
+	display: inline-block;
+	margin-bottom: 0.25rem;
+}
+.postinfo .cat.new{
+	background: #0fab0c;
+	color: #fff;
+}
+.postinfo .cat {
+	font-size: 0.9rem;
+	font-weight: 500;
+	border: solid 1px #0fab0c;
+	padding: 0 0.5rem;
+	margin-right: 0.5rem;
+	color: #0fab0c;
+}
+.postarea_in h2{
+	font-size: 1.5rem;
+	margin:2rem 0 1.5rem;
+}
+.postarea_in h3{
+	font-size: 1.4rem;
+	margin:1.5rem 0;
+}
+.postarea_in h4{
+	margin:1.5rem 0 1rem;
+	font-size: 1.3rem;
+}
+.postarea_in h5{
+	margin:1rem 0;
+	font-size: 1.2rem;
+}
+.postarea_in h6{
+	margin:1rem 0;
+	font-size: 1.1rem;
+}
+.postarea_in p{
+	margin:0.5rem 0;
+}
+.postarea_in strong{
+	font-weight: bold;
+}
+.postarea_in a{
+	text-decoration: underline;
+	color: #0e800c;
+	display: inline;
+}
+.postarea_in img{
+	display: block;
+	margin:1rem auto;
+	width: auto;
+	max-width: 100%;
+}
+.postarea .allposts{
+	text-align: center;
+	margin:2rem 0 4rem;
+}
+.postarea .allposts a{
+	display: inline-block;
+	background: #ccc;
+	padding:0.5rem 1rem 0.5rem 4rem;
+	position: relative;
+	border:1px solid #ccc;
+	transition: .3s;
+		-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.postarea .allposts a:hover{
+	background: #fff;
+}
+.postarea .allposts a::before,
+.postarea .allposts a::after{
+	position: absolute;
+	top:50%;
+	height: 1px;
+	left:1.5rem;
+	background: #333;
+	content: '';
+	transition: .3s;
+}
+.postarea .allposts a::before{
+	width: 2rem;
+	transform:translateY(-50%);
+}
+.postarea .allposts a::after{
+	width: 0.5rem;
+	transform: translateY(-50%) rotate(-35deg);
+	transform-origin: left center;
+}
+.postarea .allposts a:hover::before,
+.postarea .allposts a:hover::after{
+	left:0.5rem;
+}
+.postarea .allposts a:hover::before{
+	width: 3rem;
+}
+.postarea .allposts a:hover::after{
+	width: 0.5rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ ポストエリア ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
