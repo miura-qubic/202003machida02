@@ -20,7 +20,7 @@
 								<li><a href="#">採用情報</a></li>
 								<li><a href="#">町田あるある</a></li>
 								<li><a href="#">お知らせ一覧</a></li>
-								<li><a href="#">コラム一覧</a></li>
+								<li><a href="/column/">コラム一覧</a></li>
 								<li><a href="#">町田チャンネル</a></li>
 								<li><a href="#">お問合せフォーム</a></li>
 							</ul>

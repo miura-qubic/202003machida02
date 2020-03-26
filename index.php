@@ -18,9 +18,7 @@
 		</div>
 
 		<div class="second_loading">
-			<div class="inner">
 				<p>つくるものがのこるものづくり</p>
-			</div>
 		</div>
 
 	</div>

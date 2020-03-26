@@ -23,7 +23,7 @@ $(function () {
 	$(window).on('load', function () {
 		setTimeout(function () {
 			$('.loading').addClass('active');
-		}, 1500);
+		}, 4000);
 	});
 
 	$(window).on('load', function () {
@@ -70,7 +70,7 @@ $(function () {
 				},
 			});
 
-		}, 4250);
+		}, 11000);
 	});
 
 	// } 
