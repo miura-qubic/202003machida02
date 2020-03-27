@@ -918,10 +918,13 @@ footer .copyright_wrap p{
 .loading.active{ transform:scale(0,1); }
 .first_loading{
 	height: 100%;
-	background: #666;
+	background: #4C4C4C;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.first_loading img{
+	width: 90%;
 }
 .second_loading{
 	position: absolute;
